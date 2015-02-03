@@ -64,9 +64,42 @@ table {
 }
 body {
     /* Typography Declarations */
-    color: #222222;
+    color: #FFF;
     font-size: 1em;
     font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+/*Top navigation section*/
+
+.top-navigation {
+	background-color: #272f32;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
+}
+.top-navigation > .content {
+	height: 4.375rem;
+
+}
+.top-navigation > .content > .logo {
+	height: 4.375rem;
+}
+.top-navigation .links {
+	float: right;
+	font-family: 'Roboto', sans-serif;
+	color: #FFFFFF;
+	font-size: 1.04rem;
+	margin-top: 1.7rem;
+	-webkit-font-smoothing:antialiased;
+}
+
+.top-navigation .links li{
+	display: inline-block;
+	margin-left: 1.563rem;
+
+}
+.top-navigation .links li:hover {
+	color: #9dbdc6;
+	cursor: pointer;
 }
 
 .masthead-heading,
